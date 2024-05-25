@@ -1,10 +1,8 @@
-/* styles.css */
-
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url('https://source.unsplash.com/1600x900/?weather'); /* Background image URL */
+  background-image: url('https://source.unsplash.com/1600x900/?weather');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -15,11 +13,11 @@ body {
 }
 
 .weather-box {
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  max-width: 400px; /* Limit width of the box */
+  max-width: 400px;
 }
 
 .weather-form {
@@ -32,7 +30,7 @@ body {
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: calc(100% - 20px); /* Adjusted width */
+  width: calc(100% - 20px);
 }
 
 .weather-button {
